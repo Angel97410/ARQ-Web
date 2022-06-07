@@ -9,6 +9,13 @@ if (window.innerWidth < 768) {
 document.addEventListener('DOMContentLoaded', function () {
 	AOS.init();
 }, false);
+// récupérer données
 
+const nameInput = document.querySelector("#name");
+const email = document.querySelector("#email");
+const message = document.querySelector("#message");
 
 // formulaire de Contact
+function validateForm(){
+
+}
