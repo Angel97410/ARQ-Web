@@ -186,7 +186,7 @@
                     <div class="card mb-5">
                         <div class="card-body p-sm-5">
                             <h2 class="text-center mb-4">Contact</h2>
-                            <form method = "post" id="contact-form" action="/mail.php">
+                            <form method = "post" id="contact-form" action="mail.php">
                                 <div class="mb-3"><input id="name" class="form-control" type="text" name="name"
                                         placeholder="Prénom" /></div>
                                 <div class="mb-3"><input id="email" class="form-control" type="email" name="email" required
