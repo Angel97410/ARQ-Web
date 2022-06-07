@@ -189,10 +189,10 @@
                             <form method = "post" id="contact-form" action="/mail.php">
                                 <div class="mb-3"><input id="name" class="form-control" type="text" name="name"
                                         placeholder="Prénom" /></div>
-                                <div class="mb-3"><input id="email" class="form-control" type="email" name="email"
+                                <div class="mb-3"><input id="email" class="form-control" type="email" name="email" required
                                         placeholder="Email" /></div>
                                 <div class="mb-3"><textarea id="message" class="form-control" name="message" rows="6"
-                                        placeholder="Message"></textarea></div>
+                                        placeholder="Message" required></textarea></div>
                                 <div><button class="btn btn-dark d-block w-100" type="submit">Envoyer</button></div>
                             </form>
                         </div>
