@@ -12,10 +12,16 @@ document.addEventListener('DOMContentLoaded', function () {
 // récupérer données
 
 const nameInput = document.querySelector("#name");
-const email = document.querySelector("#email");
+let email = document.querySelector("#email");
 const message = document.querySelector("#message");
 
-// formulaire de Contact
-function validateForm(){
+// Jquery dynamisation navbar active
+$(() => {
+	$('li .nav-link').click(function(){
 
-}
+		$('li .nav-link').each(function(){
+			$(this).removeClass('active');
+		})
+		$(this).addClass('active');
+	})
+})
